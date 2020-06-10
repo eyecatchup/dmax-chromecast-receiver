@@ -19,7 +19,7 @@
   margin-top: 160px; }
   .logo-image--dark-background {
     margin-top: 0;
-    background-image: url(/dmax-static/media/logo-dark-background.a1aa2ffc.svg); }
+    background-image: url(../media/logo-dark-background.a1aa2ffc.svg); }
 .idle-screen {
   position: fixed;
   top: 0;
@@ -109,7 +109,7 @@
       left: 0;
       right: 0;
       padding-top: 56.25%;
-      background-image: url(/dmax-static/media/thumbnail-fallback.56a4ecd9.svg); }
+      background-image: url(../media/thumbnail-fallback.56a4ecd9.svg); }
   .player-ui__titles {
     flex: 0 0 693px;
     max-width: 693px;
@@ -189,18 +189,18 @@
       width: 52px;
       height: 52px;
       background-size: cover;
-      background-image: url(/dmax-static/media/icon-play.44e0518b.svg); }
+      background-image: url(../media/icon-play.44e0518b.svg); }
     .player-ui__state-icon__paused {
       width: 52px;
       height: 52px;
       background-size: cover;
-      background-image: url(/dmax-static/media/icon-pause.24b1c50c.svg); }
+      background-image: url(../media/icon-pause.24b1c50c.svg); }
     .player-ui__state-icon__buffering {
       width: 52px;
       height: 52px;
       background-size: cover;
       animation: spin 1.5s linear infinite;
-      background-image: url(/dmax-static/media/icon-spinner.bc207ee9.png); }
+      background-image: url(../media/icon-spinner.bc207ee9.png); }
 @font-face {
   font-family: 'BentonExtraBold';
   font-style: normal;
@@ -211,13 +211,13 @@
   font-family: 'BentonBold';
   font-style: normal;
   font-weight: normal;
-  src: local("BentonSansBold"), url(/dmax-static/media/BentonSans-Bold.ab0a7d74.woff) format("woff"); }
+  src: local("BentonSansBold"), url(../media/BentonSans-Bold.ab0a7d74.woff) format("woff"); }
 
 @font-face {
   font-family: 'BentonRegular';
   font-style: normal;
   font-weight: normal;
-  src: local("BentonSansRegular"), url(/dmax-static/media/BentonSans-Regular.abcfe435.woff) format("woff"); }
+  src: local("BentonSansRegular"), url(../media/BentonSans-Regular.abcfe435.woff) format("woff"); }
 
 @keyframes spin {
   from {
@@ -245,7 +245,7 @@
     height: 52px;
     background-size: cover;
     animation: spin 1.5s linear infinite;
-    background-image: url(/dmax-static/media/icon-spinner.bc207ee9.png); }
+    background-image: url(../media/icon-spinner.bc207ee9.png); }
   .launching-screen__text {
     display: none; }
 
